@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Myscore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="outher.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="head">
+        <div class="logo">
+        <p><img src="../image/7.png"></p>
+        </div>
+        <div class="name">Личный кабинет <span id="nick"></span>
+        </div>
+        <div class="quit" href="../avt/vxod.php">Выйти</div>
+    </div>
+    <div class="main">
+        <div class="left-main">
+          <div class="left-main-category"><a class="nav-link" href="../main/index.html">Главная</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/create-match.html">Создать матч</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/stat-match.html">Статистика за матч</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/stat-match-players.html">Статистика игроков за матч</a>
+            </div>
+            <div class="left-main-category"><a class="nav-link" href="/admin/прием заявок.html">Прием заявок</a>
+            </div>
+            <div class="left-main-category"><a class="nav-link" href="/admin/Регистрация команд.html">Зарегестрировать команду</a>
+            </div><hr>
+        </div>
+        <div class="center-main">
+            <div class="content1">
+                <span id="zag">Статистика матча</span>
+                <hr>
+                <div class="name-teams">
+                  <span style="margin-left:20px">Выберите матч</span>
+                  <div class="showmatch">
+                  </div>
+                  <div class="t1">
+
+                  </div>
+
+                  <div class="t2">
+                    
+                  </div>
+                </div>
+                <div class="maps">
+                  <div class="maps1">
+                  <span style="margin-left:20px">Выберите фармат матча </span>
+                  <select id="1">
+                    <option value="0">BO3</option>
+                    <option value="1">BO5</option>
+                  </select>
+                  <div class="map">
+                    1 карта 
+                    <span style="margin-left:20px" id="map"></span>
+                    <div  style="margin-left:20px" class="map1-score">
+                      <input type="text" style="border-radius:3px" id="scoremap1"size="5">
+                      <input type="text" style="border-radius:3px" id="scoremap11"size="5">
+
+                    </div>
+                  </div>
+                  <div class="map">
+                    2 карта 
+                    <span style="margin-left:20px" id="map1"></span>
+                    <div style="margin-left:20px" class="map1-score">
+                      <input type="text" style="border-radius:3px" id="scoremap21"size="5">
+                      <input type="text" style="border-radius:3px" id="scoremap22"size="5">
+
+                    </div>
+                  </div>
+                  <div class="map">
+                    3 карта 
+                    <span style="margin-left:20px" id="map2"></span>
+                    <div style="margin-left:20px" class="map1-score">
+                      <input type="text" style="border-radius:3px" id="scoremap31"size="5">
+                      <input type="text" style="border-radius:3px" id="scoremap32"size="5">
+
+                    </div>
+                  </div>
+                  <div class="hidden">
+                    <div class="map">
+                      4 карта 
+                      <span style="margin-left:20px" id="map3"></span>
+                      <div style="margin-left:20px" class="map1-score">
+                        <input type="text" style="border-radius:3px" id="scoremap4"size="5">
+                      </div>
+                    </div>
+                    <div class="map">
+                      5 карта 
+                      <span style="margin-left:20px" id="map4"></span>
+                      <div style="margin-left:20px" class="map1-score">
+                        <input type="text" style="border-radius:3px" id="scoremap5"size="5">
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="opis1"> 
+                  Описание матча
+                  <hr>
+                  <div class="opis1-1">
+                    1. NAVI removed Vertigo<br>
+                    2. FaZe removed Mirage<br>
+                    3. NAVI picked Dust2<br>
+                    4. FaZe picked Nuke<br>
+                    5. NAVI removed Ancient<br>
+                    6. FaZe removed Inferno<br>
+                    7. Overpass was left over
+                  </div>
+                </div>
+              </div> 
+              <button class="add1">Создать</button>     
+            </div>  
+        </div>
+
+    </div>
+  </body>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</html>

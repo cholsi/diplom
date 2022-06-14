@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Myscore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="outher.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="head">
+        <div class="logo">
+        <p><img src="../image/7.png"></p>
+        </div>
+        <div class="name">Личный кабинет <span id="nick"></span>
+        </div>
+        <div class="quit" href="../avt/vxod.php">Выйти</div>
+    </div>
+    <div class="main">
+        <div class="left-main">
+          <div class="left-main-category"><a class="nav-link" href="../main/index.html">Главная</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/create-match.html">Создать матч</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/stat-match.html">Статистика за матч</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/stat-match-players.html">Статистика игроков за матч</a>
+            </div>
+            <div class="left-main-category"><a class="nav-link" href="/admin/прием заявок.html">Прием заявок</a>
+            </div>
+            <div class="left-main-category"><a class="nav-link" href="/admin/Регистрация команд.html">Зарегестрировать команду</a>
+            </div><hr>
+        </div>
+        <div class="center-main">
+            <div class="content3">
+                <span id="zag">Статистика игроков</span>
+                <hr>
+                <div class="name-teams">
+                  <span style="margin-left:20px">Выберите матч</span>
+                  <div class="showmatch">
+                  </div>
+                  <div class="t1">
+
+                  </div>
+
+                  <div class="t2">
+                    
+                  </div>
+                </div>
+                <div class="tem"></div>
+                <div class="mid2-3">
+                  <div class="srt-all">
+                    <div class="str-name-id">
+                      <span id="id1"></span>
+                    </div>
+                    <div class="str-name-id">
+                      <span id="id2"></span>
+                    </div>
+                    <div class="str-name-id">
+                      <span id="id3"></span>
+                    </div>
+                    <div class="str-name-id">
+                      <span id="id4"></span>
+                    </div>
+                    <div class="str-name-id">
+                      <span id="id5"></span>
+                    </div>
+                  </div>
+                  <div class="srt-all">
+                      <div class="str-name">
+                       <span id="name1"></span>
+                      </div>
+                      <div class="str-name">
+                        <span id="name2"></span>
+                      </div>
+                      <div class="str-name">
+                        <span id="name3"></span>
+                      </div>
+                      <div class="str-name">
+                        <span id="name4"></span>
+                      </div>
+                      <div class="str-name">
+                        <span id="name5"></span>
+                      </div>
+                  </div>
+                  
+                  <div class="stats">
+                    <div class="opis">
+                      <span id="kd">kill</span>
+                      <span id="kd">death</span>
+                      <span id="kd">adr</span>
+                      <span id="kd">rating</span>
+                    </div>
+                    <div class="stats-1">
+                    <input type="text" id="statk1"size="2">
+                    <input type="text" id="statd1"size="2">
+                    <input type="text" id="statadr1"size="2">
+                    <input type="text" id="statrating1"size="2">
+                    </div>
+                    <div class="stats-1">
+                      <input type="text" id="statk2"size="2">
+                      <input type="text" id="statd2"size="2">
+                      <input type="text" id="statadr2"size="2">
+                      <input type="text" id="statrating2"size="2">
+                    </div>
+                    <div class="stats-1">
+                      <input type="text" id="statk3"size="2">
+                      <input type="text" id="statd3"size="2">
+                      <input type="text" id="statadr3"size="2">
+                      <input type="text" id="statrating3"size="2">
+                    </div>
+                    <div class="stats-1">
+                      <input type="text" id="statk4"size="2">
+                      <input type="text" id="statd4"size="2">
+                      <input type="text" id="statadr4"size="2">
+                      <input type="text" id="statrating4"size="2">
+                    </div>
+                    <div class="stats-1">
+                      <input type="text" id="statk5"size="2">
+                      <input type="text" id="statd5"size="2">
+                      <input type="text" id="statadr5"size="2">
+                      <input type="text" id="statrating5"size="2">
+                    </div>
+                  </div>
+                  
+                </div>
+                <button class="opr">Создать</button>
+            
+            </div>
+        </div>
+
+    </div>
+  </body>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</html>

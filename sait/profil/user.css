@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c6c7be;
+    }
+.head{
+    display:flex;
+    width: 100%;
+    background-color:rgb(29,29,27);
+    color:yellow;
+}
+.quit{
+    margin-top:80px;
+    margin-left:300px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color:yellow;
+}
+.name{
+    color: yellow;
+    margin-top:80px;
+    margin-left:320px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.logo{
+    margin-left: 30px;
+}
+
+.nav{
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 20px;
+}
+.nav-item{
+    margin-top:100px;
+    margin-bottom:70px;
+    padding: 20px;
+    font-size: 1.25em;
+    background-color: blue;
+}
+.nav-item1{
+    font-size: 1.2em;
+    list-style-type: none;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:15px;
+    border-radius: 9px;
+    border:1px solid black;
+    transition: 0.5s linear;
+    
+}
+.nav-link1{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 1s linear;
+    
+}
+.main{
+    display: flex;
+}
+.left-main{
+    display:block;
+    width: 300px;
+    background-color: rgb(29,29,27);
+    padding-top: 150px;
+    height: 600px;
+
+}
+.left-main-category{
+    color: yellow;
+    font-size: 1.25em;
+    height: 40px;
+    padding: 20px;
+    padding-top: 30px;
+    width: 260px;
+    text-align: center;
+    transition: 1s linear;
+    border-top: 2px solid wheat;
+
+}
+.left-main-category:hover{
+    background-color: rgb(73, 221, 15);
+    border-radius: 15px;
+    border:1px solid black;
+}
+.nav-link{
+    color:yellow;
+    text-decoration: none;
+
+}
+.center-main{
+    display: flex;
+}
+.profil{
+    display: block;
+    width: 220px;
+    height: 180px;
+    background-color:rgb(167, 167, 146);
+    color: yellow;
+    margin-left: 90px;
+    margin-top: 80px;
+    border-radius: 15px;
+    border:1px solid black;
+}
+.content{
+    padding-top:20px;
+    display: block;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(167, 167, 146);
+    border-radius: 15px;
+    border:1px solid black;
+    color:black;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+#zag{
+    margin-left: 200px;
+    font-size:1.2em;
+    color: black;
+}
+#zag1{
+    margin-left: 260px;
+    font-size:1.3em;
+    color: black;
+}
+#for{
+    margin-left: 150px;
+    font-size: 1.2em;
+}
+.form-control{
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 30px;
+}
+.form-control1{
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 30px;
+}
+.form-control2{
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 55px;
+    margin-top: 20px;
+    height: 30px;
+}
+.submit{
+    margin-top: 30px;
+    margin-left:90px;
+}
+.submit1{
+    margin-left:200px;
+}
+.content1{
+    padding-top:20px;
+    display:block;
+    width: 680px;
+    height: 600px;
+    background-color: rgb(167, 167, 146);
+    border-radius: 15px;
+    border:1px solid black;
+    color:black;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 1.2em;
+}
+.photo{
+    width:100px;
+    height:100px;
+    background-color: rgb(0, 0, 0);
+}
+.incontent{
+    display: flex;
+    padding-left: 5px;
+    padding-top:20px;
+    margin-left: 20px;
+}
+.form-signin1{
+    width: 500px;
+    font-size: 1.1em;
+    padding: 40px;
+}
+.forma{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 220px;
+}
+.long{
+    width: 500px;
+}
+.fam1{
+    display:flex;
+}
+.pos2{
+    margin-left: 50px;
+}
+.pos3{
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+.submit3{
+        text-decoration: none;
+        display: inline-block;
+        width: 140px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 45px;
+        margin: 10px 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #524f4e;
+        background: white;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+        transition: .3s;
+        margin-left: 350px;
+}
+.submit3:hover {
+        background: #f5e502;
+        box-shadow: 0 15px 20px rgba(224, 228, 4, 0.4);
+        color: white;
+        transform: translateY(-7px);
+}
+#sub1{
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    margin-left: 350px;
+}
+#sub1:hover {
+    background: #f5e502;
+    box-shadow: 0 15px 20px rgba(224, 228, 4, 0.4);
+    color: white;
+    transform: translateY(-7px);
+}
+.photo1{
+    margin-top: 120px;
+}
+input[type='file'] {
+    color: transparent;
+  }
+.form-signin3{
+    text-align: right;
+    padding-left: 20px;
+}
+.submit3{
+    margin-top:50px;
+    text-align: center;
+    margin-right: 30px;
+}
+.content3{
+    padding-top:20px;
+    display:block;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(167, 167, 146);
+    border-radius: 15px;
+    border:1px solid black;
+    color:black;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 1.2em;
+
+}
+.form-control3{
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 30px;
+}
+.activ{
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:15px;
+    border-radius: 9px;
+    border:1px solid black;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+.nav-item1:hover {
+    background: #ffffff; /* Цвет фона */
+}
+.content_name{
+    width: 500px;
+    height: 200px;
+    text-align: right;
+}
+.pl{
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 15px;
+}

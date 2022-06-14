@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Myscore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="user.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="head">
+        <div class="logo">
+        <p><img src="../image/7.png"></p>
+        </div>
+        <div class="name">Личный кабинет пользователя <a id="name"></a>
+        </div>
+        <a class="quit" id="swap" href="../avt/vxod.php">Войти</a>
+    </div>
+    <div class="main">
+      <div class="left-main">
+        <div class="left-main-category"><a class="nav-link" href="../main/index.html">Главная</a>
+        </div>
+        <div class="left-main-category"><a class="nav-link" href="/profil/stats.html">Подать заявку</a>
+        </div>
+        <div class="left-main-category"><a class="nav-link" href="/sait/profil/user.html">Профиль</a>
+          </div><hr>
+      </div>
+        <div class="center-main">
+            <div class="profil">
+                <li class="nav-item1"><a class="nav-link1" href="user.html">Профиль</a></li>
+                <div class="activ"><li><a class="nav-link1" href="user player.html">Профиль игрока</a></li></div>
+            </div>
+            <div class="content1">
+                <div class="line">
+                <span id="zag1">Профиль игрока</span>
+                <hr>
+                </div>
+              <div class="incontent">
+                <!--<div class="photo">
+                  <form enctype="multipart/form-data" class="photo1" method="post">
+                    <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+                      <input type="submit" value="Отправить"></p>
+                  </form>-->
+                </div>
+                <div class="form-signin1">
+                    Фамилия<br>
+                    <span id="for1"></span><input  class="forma long" type="text"  id="family-profil" required><br>
+                  <div class="fam1">
+                    <div class="pos1">
+                      Имя <br>
+                      <input  class="forma" type="text" id="username-profil"  required>
+                    </div>
+                    <div class="pos1">
+                      <span class="pos2">Отчество</span><br>
+                      <input  class="forma pos2" type="text"  id="ochestvo"  required>
+                    </div>
+                  </div>
+                  <div class="fam1">
+                    <div class="pos1">
+                    Дата рождения
+                    <br>
+                    <input  class="forma" type="date"  id="data" value="2022-05-25"
+                    max="2022-05-26" min="1950-05-29"placeholder="Username" required>
+                    </div>
+                    <div class="pos2">
+                    Гражданство
+                    <br>
+                    <select class="pos3" size="1">
+                      <option selected value="России">России</option>
+                      <option value="Беларусии">Беларусии</option>
+                      <option value="Украина">Украины</option>
+                      <option value="Казахстан">Казахстана</option>
+                     </select>
+                    </div>
+                  </div>
+                  <div class="fam1">
+                    <div class="pos1">
+                      Номер телефона<br>
+                      <input  class="forma " type="text" id="nomer"  required>
+                    </div>
+                    <div class="pos1">
+                      <span class="pos2">Ссылка на соц.сеть</span><br>
+                      <input  class="forma pos2" type="text"  id="soc"  required>
+                    </div>
+                  </div>
+                  Ссылка на аккаунт steam<br>
+                    <span id="for1"></span><input  class="forma long" type="text"  id="steam"  required><br>
+                    <button type="submit" id="sub1">Сохранить</button>
+                </div>
+              </div>
+          </div>
+        </div>
+  </body>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</html>

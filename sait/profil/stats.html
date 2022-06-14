@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Myscore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="user.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="head">
+        <div class="logo">
+        <p><img src="../image/7.png"></p>
+        </div>
+        <div class="name">Личный кабинет пользователя <a id="name"></a>
+        </div>
+        <a class="quit" id="swap" href="../avt/vxod.php">Войти</a>
+    </div>
+    <div class="main">
+        <div class="left-main">
+              <div class="left-main-category"><a class="nav-link" href="../main/index.html">Главная</a>
+              </div>
+              <div class="left-main-category"><a class="nav-link" href="zayavka.html">Подать заявку</a>
+              </div>
+              <div class="left-main-category"><a class="nav-link" href="/profil/user.html">Профиль</a>
+                </div><hr>
+        </div>
+        <div class="center-main">
+          <div class="content">
+              <span id="zag">Создание команды</span>
+              <hr>
+              Название команды <input class="forma" id="zayavka1" type="text" name="username" placeholder="Teamname" required><br>
+              Выберите участников команды: <br>
+              <div class="pl">
+                <div class="zayavka2"> </div><br>
+                <div class="zayavka3"> </div><br>
+                <div class="zayavka4"> </div><br>
+                <div class="zayavka5"> </div><br>
+                <div class="zayavka6"> </div><br>
+              </div>
+                    <button type="submit" class="submit3" id="sozdanie">Сохранить</button>
+
+          </div>
+
+      </div>
+
+    </div>
+  </body>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</html>

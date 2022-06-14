@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Myscore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="outher.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="head">
+        <div class="logo">
+        <p><img src="../image/7.png"></p>
+        </div>
+        <div class="name">Личный кабинет <span id="nick"></span>
+        </div>
+        <div class="quit" href="../avt/vxod.php">Выйти</div>
+    </div>
+    <div class="main">
+        <div class="left-main">
+          <div class="left-main-category"><a class="nav-link" href="../main/index.html">Главная</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/create-match.html">Создать матч</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/stat-match.html">Статистика за матч</a>
+          </div>
+          <div class="left-main-category"><a class="nav-link" href="/admin/stat-match-players.html">Статистика игроков за матч</a>
+            </div>
+            <div class="left-main-category"><a class="nav-link" href="/admin/прием заявок.html">Прием заявок</a>
+            </div>
+            <div class="left-main-category"><a class="nav-link" href="/admin/Регистрация команд.html">Зарегестрировать команду</a>
+            </div><hr>
+        </div>
+        <div class="center-main">
+            <div class="content">
+                <span id="zag">Создать матч</span>
+                <hr>
+                <div class="name-teams">
+                    <div class="name-team1">
+                        <div id="Team1-name">Team1</div>
+                        <div class="team1">
+                        </div>
+                    </div>
+                    <div class="name-team2">
+                        <div id="Team2-name">Team2</div>
+                        <div class="team2">
+                        </div>
+                    </div>
+                </div>
+                <span style="margin-left:260px">Cчёт матча</span>
+                <div class="score-teams">
+                    <div class="score">
+                        <input type="text" style="border-radius:5px"id="score1"size="4">
+                      </div>
+                      <div class="score">
+                        <input type="text" style="border-radius:5px" id="score2"size="4">
+                      </div>
+                </div>
+                <button class="add">Создать</button>
+            
+            </div>
+        </div>
+
+    </div>
+  </body>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+</html>

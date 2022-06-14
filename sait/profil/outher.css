@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c6c7be;
+    }
+.head{
+    display:flex;
+    width: 100%;
+    background-color:rgb(29,29,27);
+    color:yellow;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.name{
+    color: yellow;
+    margin-top:80px;
+    margin-left:320px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.quit{
+    margin-top:80px;
+    margin-left:300px;
+    font-size: 1.2em;
+}
+.main{
+    display: flex;
+}
+.left-main{
+    display:block;
+    width: 300px;
+    background-color: rgb(29,29,27);
+    padding-top: 150px;
+    height: 600px;
+
+}
+.left-main-category{
+    color: yellow;
+    font-size: 1.25em;
+    height: 40px;
+    padding: 20px;
+    padding-top: 30px;
+    width: 260px;
+    text-align: center;
+    transition: 1s linear;
+    border-top: 2px solid wheat;
+
+}
+.left-main-category:hover{
+    background-color: rgb(73, 221, 15);
+    border-radius: 15px;
+    border:1px solid black;
+}
+.nav-link{
+    color:yellow;
+    text-decoration: none;
+
+}
+.center-main{
+    display:flex;
+    padding: 50px;
+    
+}
+.spawn1{
+    width: 200px;
+    background-color: black;
+    color: yellow;
+    height: 170px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.spawn2{
+    width: 200px;
+    background-color: black;
+    color: yellow;
+    height: 170px;
+    margin-left: 150px;
+    margin-top: 100px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+.submit{
+    margin-top: 40px; 
+}
+

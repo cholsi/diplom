@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c6c7be;
+}
+hr{
+    color: #000000;
+}
+
+.head-mein{
+    background-color: #000000;
+    width: 100%;
+
+}
+.head{
+    display:flex;
+    width: 100%;
+    color:#242323; 
+    margin-bottom: 40px;   
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav-item{
+    margin-left:40px;
+    margin-top:20px;
+    font-size: 1.25em;
+}
+.nav-link{
+    color:yellow;
+    text-decoration: none;
+}
+.nav-item1{
+    margin-left:400px;
+    margin-top:20px;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+.head2{
+    display: block;
+    width: 100%;
+    height:300px;
+    background-image: url(../image/esl15.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    display: inline;
+}
+.menu{
+    background-color:black;
+    padding-left: 155px;
+    width: 1200px;
+}
+.mid {
+    width: 100%;
+    background-color: rgb(73, 221, 15);
+    height: 50px;
+    padding-top: 1px;
+    padding-bottom:10px ;
+}
+.mid1{ 
+    margin-left:30px;
+}
+.mid1 .nav-item{
+    margin-left:40px;
+    margin-top:5px;
+    font-size: 1.25em;
+}
+.nav-link1{
+    color:yellow;
+    text-decoration: none;
+}
+.lenta{
+    padding-top:15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.match{
+    width: 170px;
+    margin-left:30px;
+    height: 100px;
+    color: rgb(217, 255, 4);
+
+}
+.mid2{
+    margin-top: 80px;
+    
+    width: 800px;
+    height: 500px;
+    color: yellow;
+    border: 1px solid while;
+}
+.mid2 a{
+    text-decoration: none;
+}
+.mid3{
+    margin-top: 100px;
+    width: 400px;
+    border-left: 2px solid rgb(73, 221, 15);
+    border-top: 2px solid rgb(73, 221, 15);
+    font-size: 1.05em;
+    height: 1199px;
+}
+.mid-main{
+    width: 1200px;
+    margin-left: 75px;
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    height: 1300px;
+    
+}
+.news{
+    height: 200px;
+    width: 388px;
+    padding-left:10px;
+    color:white;
+    border-bottom: 2px solid rgb(73, 221, 15);
+}
+h4{
+    text-align: center;
+}
+.svg{
+    height: 20px;
+    width: 20px;
+}
+.table{
+    background-color: #975454;
+    width: 388px;
+    height: 200px;
+    font-size: 1.05em;
+    color: white;
+    padding-left: 10px;
+    
+}
+.footer{
+    width: 1200px;
+    background-color:rgb(73, 221, 15);
+    height: 60px;
+    margin-left: 75px;
+}
+.match{
+    font-size: 1.15em;
+    border: 1px solid rgb(250, 250, 250);
+}
+.str1{
+    margin-top: 10px;
+    margin-left:20px
+}
+.str2{
+    margin-top: 15px;
+    margin-left:20px
+}
+.ch{
+    margin-left: 15px;
+}
+.match h1{
+    font-size: 0.6em;
+    text-align: center;
+    margin-right: 5px;
+}
+.ad{
+    font-size: 1.15em;
+    padding-top: 10px;
+}
+.result{
+    background-color: rgb(0, 0, 0);
+    width: 739px;
+    height: 500px;
+    padding-left: 60px;
+    padding-top: 10px;
+    display: flex;
+    color:yellow;
+    border-top: 2px solid rgb(73, 221, 15);
+}
+.result a{
+    color:yellow;
+}
+.teams{
+    font-size: 1.15em;
+    color: #000000;
+    width:130px;
+    height: 70px;
+    margin-top: 20px;
+    padding-top:10px;
+    border: 1px solid white;
+}
+.teams a{
+    margin-left: 15px;
+}
+.teams1 a{
+    margin-left: 15px;
+
+}
+#ple-off{
+    text-align: right;
+    color: yellow;
+    padding-right:15px;
+    width: 100%;
+}
+.teams1{
+    font-size: 1.15em;
+    color: yellow;
+    width:130px;
+    height: 70px;
+    padding-top:10px;
+    border: 1px solid white;
+}
+.teams3 a{
+    margin-left: 15px;
+}
+.teams3{
+    font-size: 1.15em;
+    color: #000000;
+    width:130px;
+    height: 70px;
+    border:1px solid white;
+    padding-top:10px;
+    margin-top: 120px;
+}
+.teams hr{
+    size: 10px;
+    color: #000000;
+}
+.team1{
+    border-bottom: 1px solid rgb(253, 253, 253);
+    padding-bottom: 5px;
+    display: flex;
+    
+}
+.team2{
+    display: flex;
+
+}
+.spawn1{
+    width:130px;
+    height: 80; 
+    padding-left: 10px;   
+}
+.spawn4{
+    width:130px;
+    height: 80; 
+}
+
+.spawn4 .teams1{
+    margin-top: 76px;
+}
+.spawn5 .teams1{
+    margin-top: 175px;
+}
+
+.up{
+    width: 60px;
+    height: 55px;
+  
+    border-right:1px solid rgb(255, 255, 255);
+    border-top:1px solid rgb(255, 255, 255);
+}
+.down{
+    width: 60px;
+    height: 46px;
+    border-right:1px solid rgb(255, 255, 255);
+    border-bottom:1px solid rgb(255, 255, 255);
+}
+.down1{
+    width: 60px;
+    background-color: aqua;
+    border-right:1px solid rgb(255, 255, 255);
+    border-bottom:1px solid rgb(255, 255, 255);
+}
+.up1{
+    width: 60px;
+    height: 199px;
+   
+    border-right:1px solid rgb(255, 255, 255);
+    border-top:1px solid rgb(255, 255, 255);
+}
+.line{
+    width: 60px;
+    height: 44px;
+    margin-top: 112px;
+    border-top:1px solid rgb(255, 255, 255);
+    
+}
+.line1{
+    width: 60px;
+    height: 44px;
+    margin-top: 155px;
+    border-top:1px solid rgb(255, 255, 255);
+}
+.line2{
+    width: 60px;
+    margin-top: 211px;
+    border-top:1px solid rgb(255, 255, 255);
+
+}
+.step1{
+    margin-top: 57px;
+}
+.step2{
+    margin-top: 101px;
+}
+.step3{
+    margin-top: 112px;
+}
+.stat{
+    width: 400px;
+    color: white;
+    border-bottom: 2px solid rgb(73, 221, 15);
+    height: 340px;
+}
+.photo2{
+    padding-left: 15px;
+    display:block;
+    width: 170px;
+    height: 200px;
+    background-color: yellow;
+}
+.best-player{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    background-color: red;
+}
+.mid4{
+    display: block;
+    width: 800px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+}
+.mid4-1{
+    font-size: 7em;
+    padding-left:150px;
+    padding-top: 30px;
+    border-top: 2px solid rgb(73, 221, 15);
+}
+.result1{
+    background-color: #975454;
+    width: 388px;
+    height: 200px;
+    font-size: 1.05em;
+    color: white;
+    padding-left: 10px;
+}
